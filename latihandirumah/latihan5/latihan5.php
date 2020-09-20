@@ -23,5 +23,6 @@ $arr1 = [123, "tulisan", true];
 // menambahkan elemen pada array 
 var_dump($hari);
 $hari[] = "kamis";
+$hari[] = "jumat";
 echo "<br>";
 var_dump($hari);
