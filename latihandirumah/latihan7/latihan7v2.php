@@ -1,3 +1,9 @@
+<?php
+if (!isset($_GET["nama"])) {
+  header("location: latihan7.php");
+  exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
