@@ -46,13 +46,13 @@ $mahasiswa = [
 
 
   <ul>
-    <?php foreach ($mahasiswa as $mhs) { ?>
+    <?php foreach ($mahasiswa as $mhs) : ?>
 
       <li>
         <a href="latihan7v2.php?nama=<?= $mhs['nama']; ?>&nim=<?= $mhs['nim']; ?>&jurusan=<?= $mhs['jurusan']; ?>"><?= $mhs['nama']; ?></a>
       </li>
 
-    <?php } ?>
+    <?php endforeach; ?>
   </ul>
 </body>
 
